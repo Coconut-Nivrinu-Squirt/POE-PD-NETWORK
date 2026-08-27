@@ -1,0 +1,22 @@
+# KiCad backups and auto-saves
+*-bak
+*.bck
+*.bak
+*-save.pro
+*-save.kicad_pcb
+*-save.sch
+POE-PD-NETWORK-backups/*.zip
+# KiCad cache and lock files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+*.*.lck
+
+# Routing and autorouter files
+*.dsn
+*.ses
+
+# OS generated files
+.DS_Store
+Thumbs.db
