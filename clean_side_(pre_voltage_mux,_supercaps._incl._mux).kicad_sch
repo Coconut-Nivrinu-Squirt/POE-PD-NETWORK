@@ -2,10 +2,10 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "bf3df66d-0989-4ca2-84ae-d7d1c2c4d3a7")
+	(uuid "8fb43eb4-6b3f-4b64-9f16-4b61f054d888")
 	(paper "A4")
 	(title_block
-		(title "POE-PD-NETWORK Schematic - Dirty Side, Isolated")
+		(title "POE-PD-NETWORK Schematic - Clean Side Pre voltage mux")
 		(rev "V0.1-WIP")
 		(company "Copyright © 2026 Coconut Nivrinu Squirt")
 		(comment 1 "Licensed under CERN-OHL-S v2")
@@ -14,7 +14,7 @@
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "2")
 		)
 	)
 	(embedded_fonts no)

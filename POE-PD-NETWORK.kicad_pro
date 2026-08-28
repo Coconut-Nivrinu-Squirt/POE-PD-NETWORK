@@ -481,7 +481,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -651,25 +651,43 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "dirty_side_(pre_clean_side,isolated).kicad_sch",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "POE-PD-NETWORK.kicad_sch",
-        "name": "Root",
-        "uuid": "bf3df66d-0989-4ca2-84ae-d7d1c2c4d3a7"
+        "filename": "clean_side_(pre_voltage_mux,_supercaps._incl._mux).kicad_sch",
+        "name": "Clean Side (Pre Voltage mux, Supercaps. incl. mux)",
+        "uuid": "ff41e0b2-c3f9-48b5-b337-f7c643979225"
+      },
+      {
+        "filename": "clean_side_(post_voltage_mux,_incl._supercaps).kicad_sch",
+        "name": "Clean Side (Post Voltage mux, incl. Supercaps)",
+        "uuid": "10801efb-0f5e-43e0-8854-b92230ca3718"
+      },
+      {
+        "filename": "dirty_side_(pre_clean_side,_isolated).kicad_sch",
+        "name": "Dirty Side (Pre clean side, isolated)",
+        "uuid": "fc83c9c7-bfe4-43ae-b5b0-87267beee3ad"
       }
     ],
-    "used_designators": "U1,DRV1,MAG1,J1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "bf3df66d-0989-4ca2-84ae-d7d1c2c4d3a7",
-      "Root"
+      "fc83c9c7-bfe4-43ae-b5b0-87267beee3ad",
+      "Dirty Side (Pre clean side, isolated)"
+    ],
+    [
+      "ff41e0b2-c3f9-48b5-b337-f7c643979225",
+      "Clean Side (Pre Voltage mux, Supercaps. incl. mux)"
+    ],
+    [
+      "10801efb-0f5e-43e0-8854-b92230ca3718",
+      "Clean Side (Post Voltage mux, incl. Supercaps)"
     ]
   ],
   "text_variables": {},
